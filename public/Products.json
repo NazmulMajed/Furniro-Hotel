@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/GR59zsx/image-2.png",
+    "title": "Syltherine",
+    "description": "Stylish cafe chair",
+    "price": " 2.5000.000"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/xCfMrq6/image-8.png",
+    "title": "Leviosa",
+    "description": "Stylish cafe chair",
+    "price": "2.500.000"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/dJQFssh/image-7.png",
+    "title": "Lolito",
+    "description": "Luxury big sofa",
+    "price": "7.000.000"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/51LVfk3/image-6.png",
+    "title": "Respira",
+    "description": "Outdoor bar table and stool.",
+    "price": "500.000"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/r5hyhG3/image-9.png",
+    "title": "Grifo",
+    "description": "Night lamp",
+    "price": " 1.500.000"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/BgnTvWd/image-4.png",
+    "title": "Muggo",
+    "description": "Small mug",
+    "price": "150.000"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/N1bzN3q/image-3.png",
+    "title": "Pingky",
+    "description": "7.000.000",
+    "price": "7.000.000"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/KrTb1mH/image-1.png",
+    "title": "Potty",
+    "description": "Minimalist flower pot",
+    "price": "500.000"
+  }
+]

@@ -1,0 +1,118 @@
+/* New Arrival */
+.new-arrival {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 645px;
+    background-color: #fff3e3;
+    padding: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .new-arrival-title {
+    font-size: 4em;
+    font-weight: bold;
+    color: #b88e2f;
+    margin-bottom: 15px;
+  }
+  
+  .collection-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .highlight {
+    color: #b88e2f;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .buy-now {
+    padding: 10px 20px;          /* Padding around the button text */
+    background-color: #B88E2F;  /* Button background color (golden brown) */
+    color: rgb(241, 188, 119);  /* Text color (light peach) */
+    border: none;               /* No border for the button */
+    border-radius: 5px;         /* Rounded corners for the button */
+    font-size: 22px;            /* Font size of the button text */
+    cursor: pointer;            /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth hover effect */
+    max-width: 150px;           /* Maximum width of the button */
+    height: 50px;               /* Fixed height of the button */
+    margin-top: 20px;           /* Space above the button */
+    margin-left: auto;          /* Auto-aligns button to the right */
+    margin-right: auto;         /* Centers the button horizontally */
+  }
+  
+  .buy-now:hover {
+    background-color: #996015;
+  }
+  .buy-now button{
+    background-color: yellow;
+    
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .new-arrival {
+      width: 90%;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .new-arrival-title {
+      font-size: 2.5em;
+    }
+  
+    .collection-title {
+      font-size: 1.4em;
+    }
+  
+    .description {
+      font-size: 0.9em;
+    }
+  
+    .buy-now {
+      width: 100%;
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .new-arrival {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    .new-arrival-title {
+      font-size: 2em;
+    }
+  
+    .collection-title {
+      font-size: 1.2em;
+    }
+  
+    .description {
+      font-size: 0.8em;
+    }
+  
+    .buy-now {
+      font-size: 16px;
+    }
+  }
+  

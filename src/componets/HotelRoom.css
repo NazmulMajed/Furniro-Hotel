@@ -1,0 +1,91 @@
+/* Hotel Room Section */
+.hotel-room {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Container */
+  .header-container {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header-container h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Dark gray */
+  }
+  
+  .header-container p {
+    font-size: 1em;
+    color: #666; /* Medium gray */
+  }
+  
+  /* Card Container */
+  .card-container {
+    display: grid; /* Use grid layout for cards */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+    justify-content: center;
+  }
+  
+  /* Individual Cards */
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #444; /* Darker gray */
+    margin: 15px 0;
+  }
+  
+  /* Card Images */
+  .card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd; /* Subtle border */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-container h1 {
+      font-size: 2em; /* Adjust header size for smaller screens */
+    }
+  
+    .header-container p {
+      font-size: 0.9em; /* Adjust text size */
+    }
+  
+    .card-title {
+      font-size: 1em; /* Adjust card title size */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-container {
+      grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+  
+    .card {
+      margin: 0 auto; /* Center cards */
+    }
+  }
+  
